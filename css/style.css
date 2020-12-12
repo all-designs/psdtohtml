@@ -1,0 +1,1014 @@
+/*+-----------------------------------------------------------+
+  |                                                           |
+  |    Template Name: Syrah - Wine Shop Html Template         |
+  |    Author: themesitem                                     |
+  |    Author Email: themesitem.cit@gmail.com                 |
+  |    Version: 1.00                                          |
+  |                                                           |
+  +-----------------------------------------------------------+*/
+
+
+/* CSS Index 
+-----------------------------------
+1. Theme default css
+2. Index Page 
+        |----> Header css
+        |----> Sticky header css
+        |----> Banner Css
+        |----> About Css
+        |----> Product Css
+        |----> Event Css
+        |----> Offer Css
+        |----> Updates Css
+        |----> Footer Css
+        |----> Copyright Css
+3. Our Story Page
+        |----> Inner Page Title css
+        |----> About Part css
+        |----> Achievement Css
+4. Our Product Page
+5. Contact page
+        |----> Left img css
+        |----> Contact-form Css
+6. Error404 Page
+7. Blog-Details
+*/
+
+
+/*===========================
+    1. Theme default css 
+===========================*/
+
+
+/* Google Fonts Css */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&display=swap');
+
+/* Local Fonts Css */
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('../webfonts/fonts/ProximaNovaRegular.eot');
+    src: url('../webfonts/fonts/ProximaNovaRegular.eot') format('embedded-opentype'), url('../webfonts/fonts/ProximaNovaRegular.woff2') format('woff2'), url('../webfonts/fonts/ProximaNovaRegular.woff') format('woff'), url('../webfonts/fonts/ProximaNovaRegular.ttf') format('truetype'), url('../webfonts/fonts/ProximaNovaRegular.svg#ProximaNovaRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'proximanova';
+    src: url('../webfonts/fonts/proximanovalight.eot');
+    src: url('../webfonts/fonts/proximanovalight.eot') format('embedded-opentype'), url('../webfonts/fonts/proximanovalight.woff2') format('woff2'), url('../webfonts/fonts/proximanovalight.woff') format('woff'), url('../webfonts/fonts/proximanovalight.ttf') format('truetype'), url('../webfonts/fonts/proximanovalight.svg#proximanovalight') format('svg');
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('../webfonts/fonts/ProximaNovaBold.eot');
+    src: url('../webfonts/fonts/ProximaNovaBold.eot') format('embedded-opentype'), url('../webfonts/fonts/ProximaNovaBold.woff2') format('woff2'), url('../webfonts/fonts/ProximaNovaBold.woff') format('woff'), url('../webfonts/fonts/ProximaNovaBold.ttf') format('truetype'), url('../webfonts/fonts/ProximaNovaBold.svg#ProximaNovaBold') format('svg');
+}
+
+body {
+    font-family: 'ProximaNova', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
+.img {
+    max-width: 100%;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    vertical-align: middle;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+}
+
+span,
+a {
+    display: inline-block;
+}
+
+a,
+button {
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'ProximaNova', sans-serif;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: #1b1740;
+    font-weight: 500;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 66px;
+}
+
+h2 {
+    font-size: 54px;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 32px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+ul,
+ol {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #4f5b60;
+    font-family: 'ProximaNova', sans-serif;
+}
+
+a {
+    color: #615b9b;
+}
+
+.container {
+    max-width: 1440px !important;
+}
+
+
+/*== All Button Style ==*/
+
+.theme_btn {
+    border: 1px solid #615b9b;
+    background: transparent;
+    color: #615b9b;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.theme_btn:hover {
+    border: 1px solid #615b9b;
+    background: #615b9b;
+    color: #ffffff;
+}
+
+.bg_cover {
+    background-position: center center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*== All section title here ==*/
+
+
+/* one-side-border title */
+
+.section_title {
+    text-align: center;
+}
+
+.section_title h2 {
+    margin-bottom: 45px;
+    text-transform: uppercase;
+}
+
+
+/*===========================
+    Index Page Css Start 
+===========================*/
+
+
+/*===========================
+    HEADER CSS 
+===========================*/
+
+.header_top {}
+
+.header_top .navbar-brand {
+    padding: 20px 0;
+}
+
+.header_top .navbar-brand img {
+    height: 70px;
+}
+
+.header_top .universal_nave {
+    text-align: end;
+    margin-top: 40px;
+}
+
+.header_top .universal_nave button {
+    padding: 9px 17px;
+    border: 2px solid #615b9b;
+    border-radius: 5px;
+    margin-left: 10px;
+    background: transparent;
+    color: #615b9b;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.header_top .universal_nave button:hover {
+    border: 2px solid #615b9b;
+    background: #615b9b;
+    color: #fff;
+}
+
+.header_top .universal_nave button i {
+    margin-right: 5px;
+}
+
+.header_top .universal_nave .personnel_home {
+    display: inline;
+}
+
+.header_top .universal_nave .personnel_home button {}
+
+.header_top .universal_nave .timesheets {
+    display: inline;
+}
+
+.header_top .universal_nave .timesheets button {}
+
+.header_top .universal_nave .jobs {
+    display: inline;
+    position: relative;
+}
+
+.header_top .universal_nave .jobs button.btn {}
+
+.header_top .universal_nave .jobs .modal-body {
+    position: absolute;
+    -ms-flex: 1 1 auto;
+    position: absolute;
+    right: -316px;
+    z-index: 999;
+    padding: 55px 40px;
+    background: #615b9b;
+    /* top: 101%; */
+    border-radius: 6px;
+    text-align: center;
+    bottom: -444px;
+}
+
+.header_top .universal_nave .jobs.active form {
+    display: block;
+}
+
+.header_top .universal_nave .jobs form input {
+    display: block;
+    padding: 14px;
+    width: 275px;
+}
+
+.header_top .universal_nave .jobs form select {
+    display: block;
+    width: 275px;
+    margin-top: 18px;
+    padding: 15px;
+}
+
+.header_top .universal_nave .jobs form button {
+    color: #ffffff;
+    background: transparent;
+    border: 3px solid #ffffff;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+/* manubar */
+
+.header_area {
+    background: #1b1740;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .navbar-nav .nav-item {
+    padding: 14px 85px;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.navbar .navbar-nav .nav-item.active.medical {
+    background: #73ba9d;
+}
+
+.navbar .navbar-nav .nav-item:hover.medical {
+    background: #73ba9d;
+}
+
+.navbar .navbar-nav .nav-item.active.project {
+    background: #6baac1;
+}
+
+.navbar .navbar-nav .nav-item:hover.project {
+    background: #6baac1;
+}
+
+.navbar .navbar-nav .nav-item.active.consulting {
+    background: #6b83c1;
+}
+
+.navbar .navbar-nav .nav-item:hover.consulting {
+    background: #6b83c1;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+/* toggle icon */
+
+
+/* quick_search_box */
+
+.header_area .quick_search_box {
+    position: absolute;
+    right: 40px;
+}
+
+.quick_search_box .quick_search_form {
+    display: none;
+    position: absolute;
+    right: 0;
+    z-index: 9999;
+    top: 32px;
+    padding: 55px 40px;
+    background: #615b9b;
+    border-radius: 6px;
+    text-align: center;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.quick_search_box .quick_search_form.show {
+    display: block;
+}
+
+.quick_search_box .quick_search_form .close {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #fff;
+}
+
+.quick_search_box .quick_search_form form button {
+    color: #ffffff;
+    background: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.quick_search_box .quick_search_form form select {
+    display: block;
+    width: 275px;
+    margin-top: 18px;
+    padding: 15px;
+}
+
+.quick_search_box .quick_search_form form input {
+    display: block;
+    padding: 14px;
+    width: 275px;
+}
+
+
+/* quick_search_box end*/
+
+.header_area .open {
+    font-size: 22px;
+    background: transparent;
+    border: 0;
+}
+
+.header_area .toggle_navbar {
+    display: none;
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    width: 100%;
+    background: #1b1740;
+    text-align: left;
+}
+
+.header_area .toggle_navbar .navbar-nav {
+    padding-top: 50px;
+}
+
+.toggle_navbar .navbar-nav .nav-item {
+    padding: 15px;
+    padding-left: 25px;
+}
+
+.toggle_navbar .navbar-nav .nav-item.dropdown {}
+
+.toggle_navbar .navbar-nav .nav-item.dropdown .dropdown-toggle::after {
+    right: 25px;
+    position: absolute;
+    top: 50%;
+}
+
+.toggle_navbar .navbar-nav .nav-item.dropdown .dropdown-menu {
+    background: #28235d;
+    width: 93%;
+    padding: 15px 0px;
+}
+
+.toggle_navbar .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item {
+    padding: 15px 1.5rem;
+    color: #ffffff;
+}
+
+.toggle_navbar .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item:hover {
+    background: #6baac1;
+}
+
+.header_area .toggle_navbar .navbar-nav .nav-item:hover {
+    background: #6baac1;
+}
+
+.header_area .toggle_navbar .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    font-size: 18px;
+}
+
+.header_area .toggle_navbar .close {
+    position: absolute;
+    color: #1b1740;
+    right: 15px;
+    top: 15px;
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.header_area .toggle_navbar.show {
+    display: block;
+}
+
+
+/*===========================
+     STICKY HEADER CSS 
+=============================*/
+
+
+/*
+.header_area.sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 9999999;
+	box-shadow: 0px 0px 191px 0px rgba(0, 0, 0, 0.06);
+
+}
+
+.header_area.sticky .navbar {
+	background: #1D2228;
+	animation: stickyani 8s;
+	-webkit-animation: stickyani 2s;
+	position: absolute;
+	padding-top: 0;
+}
+
+
+@keyframes stickyani {
+	from {
+		transform: translateY(-100%);
+	}
+
+	to {
+		transform: translateY(0);
+	}
+}
+
+*/
+
+
+/*===========================
+    BANNER PART CSS 
+===========================*/
+
+.banner_area {
+    position: relative;
+}
+
+.banner_area::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.banner_area .banner_bg {
+    position: absolute;
+    bottom: -85px;
+    left: -85px;
+}
+
+.banner_area .banner_bg img {
+    height: 400px;
+}
+
+.banner_area .banner_text {
+    padding-top: 214px;
+}
+
+.banner_area .banner_text h1 {
+    text-transform: capitalize;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 80px;
+}
+
+.banner_area .jobs_banner {}
+
+.banner_area .jobs_banner form {
+    right: 0;
+    z-index: 999;
+    top: 235%;
+    border-radius: 6px;
+    text-align: center;
+    padding-bottom: 214px;
+}
+
+.banner_area .jobs_banner form input {
+    padding: 14px;
+    width: 100%;
+}
+
+.banner_area .jobs_banner form select {
+    width: 100%;
+    padding: 15px;
+}
+
+.banner_area .jobs_banner form button {
+    color: #ffffff;
+    background: transparent;
+    border: 3px solid #584FA4;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    font-size: 21px;
+    padding: 8px 35px;
+    margin-right: 10px;
+}
+
+.banner_area .jobs_banner form button:hover {
+    border: 3px solid #584FA4;
+    background: #584FA4;
+}
+
+
+/*===========================
+	GALLERY PART CSS 
+===========================*/
+
+.gallery {}
+
+.gallery .single_gallery {
+    margin-bottom: -10px;
+}
+
+.gallery .single_gallery .image {}
+
+.gallery .single_gallery .image img {
+    /* height: 375px; */
+    overflow: hidden;
+}
+
+.gallery .single_gallery_info {
+    height: 375px;
+    color: #ffffff;
+    position: relative;
+    padding: 30px 30px;
+}
+
+.gallery .single_gallery_info.medical {
+    background: #73BA9D;
+}
+
+.gallery .single_gallery_info.project {
+    background: #6BAAC1;
+}
+
+.gallery .single_gallery_info.consulting {
+    background: #6B83C1;
+}
+
+.gallery .single_gallery_info h4 {
+    color: #ffffff;
+}
+
+.gallery .single_gallery_info .text {}
+
+.gallery .single_gallery_info .text p {
+    color: #ffffff;
+}
+
+.gallery .single_gallery_info a {
+    border: 3px solid #fff;
+    border-radius: 5px;
+    padding: 9px 16px;
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    bottom: 35px;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    z-index: 999;
+}
+
+.gallery .single_gallery_info a:hover {
+    background: #ffffff;
+    color: #615b9b;
+}
+
+.gallery .single_gallery_info .water_mark {
+    position: absolute;
+    right: 0px;
+}
+
+.gallery .single_gallery_info .water_mark img {
+    height: 180px;
+}
+
+
+/*===========================
+    EVENT CSS 
+===========================*/
+
+.letest_roles {
+    background: #F5F4FC;
+    position: relative;
+}
+
+.letest_roles .role_bg {
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.letest_roles .single_roles {
+    background: #fff;
+    padding: 20px 30px;
+    margin: 0 5px;
+    border-radius: 15px;
+}
+
+.letest_roles .single_roles span {
+    margin-bottom: 25px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.letest_roles .single_roles h4 {
+    margin-top: 0;
+    font-size: 23px;
+}
+
+.letest_roles .single_roles h6 {
+    margin-bottom: 27px;
+}
+
+.letest_roles .single_roles h6 .date {
+    margin-bottom: 0;
+    font-weight: 400;
+    margin-right: 5px;
+}
+
+.letest_roles .single_roles p {
+    margin-bottom: 30px;
+}
+
+.letest_roles .single_roles a {
+    color: #615B9A;
+    margin-bottom: 25px;
+    font-size: 17px;
+    margin-right: 21px;
+    font-weight: 500;
+    text-decoration: underline;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.letest_roles .single_roles a:hover {
+    color: #7A70DD;
+}
+
+.letest_roles .single_roles .btn1 {}
+
+.letest_roles .single_roles .btn2 {}
+
+
+/*===========================
+    companies CSS 
+===========================*/
+
+.companies {
+    padding-top: 140px;
+    position: relative;
+}
+
+.companies .companies_box_bg {
+    background: #615b9b;
+    bottom: 0;
+    width: 680px;
+    margin-left: auto;
+}
+
+.companies .companies_box {
+    padding: 67px;
+    padding-bottom: 100px;
+    padding-right: 35px;
+}
+
+.companies .companies_box h2 {
+    color: #fff;
+    font-size: 66px;
+    margin-bottom: 38px;
+    font-weight: 200;
+}
+
+.companies .companies_box p {
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 34px;
+}
+
+.companies .companies_box .text1 {}
+
+.companies .companies_box .text1 p {}
+
+
+/*===========================
+    FEFER-PART CSS 
+===========================*/
+
+.refer {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.refer .refer_text {}
+
+.refer .refer_text h2 {
+    margin-bottom: 45px;
+    font-size: 45px;
+}
+
+.refer .refer_text a {
+    border: 2px solid #615b9b;
+    padding: 10px 25px;
+    font-size: 17px;
+    border-radius: 5px;
+    color: #615b9b;
+    font-weight: 600;
+    margin-top: 20px;
+    background: transparent;
+}
+
+.refer .refer_text a:hover {
+    border: 2px solid #615b9b;
+    background: #615b9b;
+    color: #ffffff;
+}
+
+.refer .refer_text p {
+    font-size: 16px;
+}
+
+.refer .refer_text .text1 {
+    margin-bottom: 25px;
+}
+
+.refer .refer_text .text1 p {}
+
+
+/*===========================
+    FOOTER-PART CSS 
+===========================*/
+
+footer {
+    padding: 100px 0;
+    background: #100c29;
+}
+
+footer .footer_logo {}
+
+footer .footer_logo img {
+    height: 70px;
+}
+
+footer ul {
+    color: #fff;
+    text-align: right;
+}
+
+footer ul li {
+    margin-bottom: 18px;
+    font-size: 16px;
+}
+
+footer ul li a {
+    color: #756fac;
+}
+
+footer ul li i {
+    margin-right: 5px;
+}
+
+footer .copyright_text {
+    margin-top: 15px;
+}
+
+footer .copyright_text p {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+footer .copyright_text p a {
+    margin-left: 5px;
+    text-decoration: underline;
+}
+
+footer .social_icon {
+    text-align: end;
+}
+
+footer .social_icon .recsite {
+    display: inline;
+}
+
+footer .social_icon .recsite p {
+    display: initial;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 7px;
+}
+
+footer .social_icon .recsite img {
+    height: 31px;
+    margin-top: -11px;
+}
+
+footer .social_icon .icon_box {
+    display: inline;
+}
+
+footer .social_icon .icon_box a {
+    width: 40px;
+    height: 40px;
+    border: 3px solid #fff;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #fff;
+    margin-left: 20px;
+}
+
+footer .social_icon .icon_box a:hover {
+    background: #ffffff;
+    color: #0056b3;
+    border: 3px solid #fff;
+}
+
+footer .social_icon .icon_box a i {}
+
+
+/* ========================================================== */
+
+
+/* 			                02. FOOTER                        */
+
+
+/* ========================================================== */
+
+
+/*===========================
+    COPYRIGHT-PART CSS 
+===========================*/
+
+
+/* =========================----- Back-to-top button css -----====================== */
+
+.back_to_top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background: #1D2228;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: all .4s linear;
+    -webkit-transition: all .4s linear;
+    -moz-transition: all .4s linear;
+    -ms-transition: all .4s linear;
+    -o-transition: all .4s linear;
+}
+
+.back_to_top:hover {
+    background: #cf851e;
+    color: #fff;
+}
+
+color: #fff;
+
+}
+
+}
+
+}
+
+}

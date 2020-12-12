@@ -1,0 +1,430 @@
+/* Normal desktop :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+    /*======================
+    Index Page Css
+========================*/
+}
+
+
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*======================
+    Index Page Css
+========================*/
+    .m-md-0 {
+        margin: 0;
+    }
+    .header_top .navbar-brand img {
+        height: 70px;
+    }
+    .header_top .universal_nave button {
+        padding: 10px 10px;
+    }
+    .navbar .navbar-collapse .navbar-nav .nav-item {
+        padding: 10px 66px;
+    }
+    .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+        font-size: 15px;
+    }
+    .header_top .universal_nave .jobs .modal-body {
+        right: -217px;
+    }
+    .banner_area .banner_text {
+        padding-top: 150px;
+    }
+    .banner_area .jobs_banner form {
+        padding-bottom: 175px;
+    }
+    .banner_area .jobs_banner form button {
+        margin-right: 0px;
+    }
+    .gallery .single_gallery .image img {
+        /* height: 290px; */
+    }
+    .gallery .single_gallery_info {
+        height: 300px;
+    }
+    .gallery .single_gallery_info a {
+        padding: 5px 8px;
+        font-size: 12px;
+        bottom: 25px;
+    }
+    .gallery .single_gallery_info h4 {
+        font-size: 20px;
+    }
+    .letest_roles .single_roles span {
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    .letest_roles .single_roles h4 {
+        font-size: 22px;
+    }
+    .letest_roles .single_roles h6 {
+        margin-bottom: 15px;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .letest_roles .single_roles p {
+        margin-bottom: 20px;
+    }
+    .letest_roles .single_roles a {
+        margin-bottom: 20px;
+        font-size: 16px;
+        margin-right: 12px;
+    }
+    .companies .companies_box_bg {
+        width: 500px;
+    }
+    .companies .companies_box {
+        padding: 30px;
+        padding-bottom: 40px;
+    }
+    .companies .companies_box h2 {
+        font-size: 46px;
+        margin-bottom: 35px;
+    }
+    .companies .companies_box p {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+    .refer .refer_text h2 {
+        margin-bottom: 15px;
+    }
+    .refer .refer_text h2 {
+        font-size: 35px;
+    }
+    .refer .refer_text p {
+        font-size: 16px;
+    }
+    .refer .refer_text .text1 {
+        margin-bottom: 15px;
+    }
+    .refer .refer_text a {
+        padding: 10px 20px;
+        font-size: 17px;
+        font-weight: 400;
+        margin-top: 0px;
+    }
+    footer {
+        padding: 100px 0;
+    }
+    footer ul li {
+        margin-bottom: 18px;
+        font-size: 14px;
+    }
+    footer .social_icon .recsite p {
+        font-size: 16px;
+    }
+    footer .social_icon .recsite img {
+        height: 24px;
+        margin-top: -10px;
+    }
+    footer .social_icon .icon_box a {
+        width: 40px;
+        height: 40px;
+        line-height: 38px;
+        font-size: 16px;
+        margin-left: 15px;
+    }
+}
+
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*======================
+    Index Page Css
+========================*/
+    .header_top {
+        display: none;
+    }
+    .header_area {
+        background: #fff;
+    }
+    .header_area .navbar-brand {
+        margin-right: auto;
+        padding: 20px 0px;
+    }
+    .banner_area .banner_bg img {
+        height: 310px;
+    }
+    .banner_area .jobs_banner {
+        display: none;
+    }
+    .banner_area .banner_text {
+        padding-top: 110px;
+        padding-bottom: 100px;
+    }
+    .banner_area .banner_text h1 {
+        margin-bottom: 0px;
+        font-size: 50px;
+        position: relative;
+        z-index: 99;
+    }
+    .gallery .single_gallery {
+        /* margin-bottom: -10px; */
+    }
+    .letest_roles .single_roles span {
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+    .letest_roles .single_roles h4 {
+        margin-top: 0px;
+        font-size: 35px;
+        margin-bottom: 35px;
+    }
+    .letest_roles .single_roles a {
+        margin-bottom: 30px;
+        font-size: 20px;
+        margin-right: 86px;
+    }
+    .companies {
+        padding: 233px 88px;
+    }
+    .companies_box_bg.d-lg-none.d-block {
+        background: #615b9b;
+        padding: 35px;
+        color: #fff;
+    }
+    .companies_box h2 {
+        color: #fff;
+    }
+    .companies_box p {
+        color: #fff;
+        font-size: 18px;
+    }
+    footer {
+        padding: 100px 0;
+    }
+    footer .footer_logo {
+        display: none;
+    }
+    footer ul {
+        text-align: left !important;
+        margin-top: 25px;
+    }
+    footer .copyright_text p {
+        text-align: center;
+    }
+    footer .social_icon {
+        text-align: center;
+        margin-top: 31px;
+    }
+}
+
+
+/* Large Mobile :480px. */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*======================
+    Index Page Css
+========================*/
+    .header_top {
+        display: none;
+    }
+    .header_area {
+        background: #fff;
+    }
+    .header_area .navbar-brand {
+        margin-right: auto;
+        padding: 20px 0px;
+    }
+    .navbar .navbar-expand-btns {
+        position: absolute;
+        right: 0;
+        display: flex;
+    }
+    .navbar .navbar-expand-btns button {
+        border: 0;
+        background: transparent;
+        margin-left: 10px;
+    }
+    .navbar .navbar-expand-btns button i {
+        color: #584FA4;
+        font-size: 35px;
+    }
+    .navbar .navbar-expand-btns .quick_search {}
+    .navbar .navbar-expand-btns .quick_search i {
+        font-size: 25px;
+    }
+    .navbar .navbar-expand-btns .navbar-toggler {}
+    .banner_area .banner_bg img {
+        height: 310px;
+    }
+    .banner_area .jobs_banner {
+        display: none;
+    }
+    .banner_area .banner_text {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+    .banner_area .banner_text h1 {
+        margin-bottom: 0px;
+        font-size: 39px;
+        position: relative;
+        z-index: 99;
+    }
+    .gallery .single_gallery {
+        /* margin-bottom: -10px; */
+    }
+    .companies {
+        padding: 233px 88px;
+    }
+    .companies_box_bg.d-lg-none.d-block {
+        background: #615b9b;
+        padding: 35px;
+        color: #fff;
+    }
+    .companies_box h2 {
+        color: #fff;
+    }
+    .companies_box p {
+        color: #fff;
+        font-size: 16px;
+    }
+    footer {
+        padding: 100px 0;
+    }
+    footer .footer_logo {
+        display: none;
+    }
+    footer ul {
+        text-align: left !important;
+        margin-top: 25px;
+    }
+    footer .copyright_text p {
+        text-align: center;
+    }
+    footer .social_icon {
+        text-align: center;
+        margin-top: 31px;
+    }
+}
+
+
+/* small mobile :320px. */
+
+@media only screen and (max-width: 575.98px) {
+    /*======================
+    Index Page Css
+========================*/
+    .header_top {
+        display: none;
+    }
+    .header_area {
+        background: #fff;
+    }
+    .header_area .navbar-brand {
+        margin-right: auto;
+        padding: 20px 0px;
+    }
+    .navbar-brand img {
+        height: 35px;
+    }
+    .quick_search_box .quick_search_form {
+        right: -30px;
+        padding: 40px 15px;
+    }
+    .quick_search_box .quick_search_form form input {
+        padding: 10px;
+        width: 250px;
+        margin-top: 10px;
+    }
+    .quick_search_box .quick_search_form form button {
+        margin-top: 20px;
+    }
+    .quick_search_box .quick_search_form form select {
+        width: 250px;
+        padding: 10px;
+    }
+    .banner_area .banner_bg img {
+        height: 300px;
+    }
+    .banner_area .jobs_banner {
+        display: none;
+    }
+    .banner_area .banner_text {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+    .banner_area .banner_text h1 {
+        margin-bottom: 0px;
+        font-size: 39px;
+        position: relative;
+        z-index: 99;
+    }
+    .gallery .single_gallery_info a {
+        font-size: 12px;
+        bottom: 19px;
+    }
+    .companies_box h2 {
+        color: #fff;
+        font-size: 28px;
+    }
+    .companies {
+        padding: 137px 88px;
+    }
+    .letest_roles .role_bg img {
+        height: 250px;
+    }
+    .companies_box_bg.d-lg-none.d-block {
+        background: #615b9b;
+        padding: 35px;
+        color: #fff;
+    }
+    .companies_box h2 {
+        color: #fff;
+    }
+    .companies_box p {
+        color: #fff;
+        font-size: 16px;
+    }
+    .refer {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .refer .refer_text h2 {
+        margin-bottom: 62px;
+        font-size: 37px;
+    }
+    footer {
+        padding: 100px 0;
+    }
+    footer .footer_logo {
+        display: none;
+    }
+    footer ul {
+        text-align: left !important;
+        margin-top: 25px;
+    }
+    footer ul li a {
+        font-size: 16px;
+    }
+    footer ul li {
+        font-size: 16px;
+    }
+    footer .copyright_text p {
+        text-align: center;
+    }
+    footer .social_icon .recsite p {
+        font-size: 16px;
+        margin-right: 5px;
+    }
+    footer .social_icon .recsite img {
+        height: 25px;
+        margin-top: -5px;
+    }
+    footer .social_icon {
+        text-align: center;
+        margin-top: 31px;
+    }
+    footer .social_icon .icon_box a {
+        width: 40px;
+        height: 40px;
+        line-height: 36px;
+        font-size: 16px;
+        margin-left: 16px;
+    }
+}
